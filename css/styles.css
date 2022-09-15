@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
+}
+
+.navbar-nav{
+    float: right;
+}
+
+.nav-link{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin-inline: 7px;
+}
+
+.nav-link:hover{
+    color: whitesmoke;
+    text-decoration: wavy underline whitesmoke;
+    text-underline-offset: 5px;
+    transition: .5s ease;
+}
+
+
+.sectionBanner{
+    background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
+}
