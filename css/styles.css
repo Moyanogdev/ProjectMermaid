@@ -34,3 +34,50 @@ body{
 .sectionBanner{
     background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
 }
+
+.footerBan{
+    background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
+}
+
+.bi-instagram{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.bi-instagram:hover{
+    color:whitesmoke;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.bi-envelope{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.bi-envelope:hover{
+    color:whitesmoke;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.bi-whatsapp{
+    font-size: 25px;
+}
+
+.bi-whatsapp:hover{
+    color:whitesmoke;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.moyanogdev{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.moyanogdev:hover{
+    color: whitesmoke;
+    transition: .4s ease-in-out;
+}
