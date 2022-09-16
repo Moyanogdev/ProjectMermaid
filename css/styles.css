@@ -35,6 +35,37 @@ body{
     background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
 }
 
+.sectionAbout{
+    background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
+}
+
+.imgAbout{
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 2px;
+}
+
+.form-control{
+    border-style: solid;
+    border-color: rgb(245, 137, 155);
+    border-width: 3px;
+}
+
+.btnFormulario{
+    font-weight: 600;
+    border-style: solid;
+    border-color: rgb(245, 137, 155);
+    border-width: 2px;
+    background-color: white;
+}
+
+.btnFormulario:hover{
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(245, 137, 155);
+    transition: .3s ease;
+}
+
 .footerBan{
     background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
 }
