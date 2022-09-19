@@ -39,6 +39,17 @@ body{
     background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
 }
 
+.boxServicios{
+    border-style: solid;
+    border-color: rgb(245, 138, 156);
+    border-width: 4px;
+}
+
+.sectionTendencias{
+    color: white;
+    background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
+}
+
 .imgAbout{
     border-style: solid;
     border-color: whitesmoke;
