@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
 }
 
 .navbar{
@@ -30,7 +31,6 @@ body{
     transition: .5s ease;
 }
 
-
 .sectionBanner{
     background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
 }
@@ -43,6 +43,20 @@ body{
     border-style: solid;
     background-color: rgb(245, 137, 155);
     border-color: white;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.boxServicios2{
+    cursor: pointer;
+}
+
+.boxServicios:hover{
+    background-color: rgb(235, 88, 113);
+}
+
+.boxServicios2:hover h4{
+    color: rgb(235, 88, 113);
 }
 
 .sectionTrabajos{
@@ -68,13 +82,13 @@ body{
     border-color: rgb(245, 137, 155);
     border-width: 2px;
     background-color: white;
+    transition: .4s ease-in-out;
 }
 
 .btnFormulario:hover{
     border-style: solid;
     border-width: 2px;
     background-color: rgb(245, 137, 155);
-    transition: .3s ease;
 }
 
 .footerBan{
@@ -84,32 +98,32 @@ body{
 .bi-instagram{
     font-size: 25px;
     margin-right: 10px;
+    transition: .4s ease-in-out;
 }
 
 .bi-instagram:hover{
     color:whitesmoke;
-    transition: .3s ease-in-out;
     cursor: pointer;
 }
 
 .bi-envelope{
     font-size: 25px;
     margin-right: 10px;
+    transition: .4s ease-in-out;
 }
 
 .bi-envelope:hover{
     color:whitesmoke;
-    transition: .3s ease-in-out;
     cursor: pointer;
 }
 
 .bi-whatsapp{
     font-size: 25px;
+    transition: .4s ease-in-out;
 }
 
 .bi-whatsapp:hover{
     color:whitesmoke;
-    transition: .3s ease-in-out;
     cursor: pointer;
 }
 
@@ -117,9 +131,9 @@ body{
     color: black;
     text-decoration: none;
     font-weight: 600;
+    transition: .4s ease-in-out;
 }
 
 .moyanogdev:hover{
     color: whitesmoke;
-    transition: .4s ease-in-out;
 }
