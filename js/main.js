@@ -1,3 +1,5 @@
+// OWL CAROUSEL EFECTS
+
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,

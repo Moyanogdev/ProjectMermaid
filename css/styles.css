@@ -1,3 +1,4 @@
+/* Estilos Generales */
 
 *{
     margin: 0;
@@ -8,6 +9,8 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     background-color: white;
 }
+
+/* Estilos del Header */
 
 .navbar{
     background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
@@ -31,6 +34,8 @@ body{
     transition: .5s ease;
 }
 
+/* Estilos de la Sección Banner | Home */
+
 .sectionBanner{
     background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
 }
@@ -38,6 +43,8 @@ body{
 .sectionAbout{
     background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
 }
+
+/* Estilos de la sección Servicios */
 
 .boxServicios{
     border-style: solid;
@@ -59,16 +66,22 @@ body{
     color: rgb(235, 88, 113);
 }
 
+/* Estilos de la sección Trabajos */
+
 .sectionTrabajos{
     color: white;
     background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
 }
+
+/* Estilos de la sección Sobre Mi */
 
 .imgAbout{
     border-style: solid;
     border-color: whitesmoke;
     border-width: 2px;
 }
+
+/* Estilos de la sección Contacto */
 
 .form-control{
     border-style: solid;
@@ -91,6 +104,8 @@ body{
     background-color: rgb(245, 137, 155);
     color: white;
 }
+
+/* Estilos del Footer del sitio */
 
 .footerBan{
     background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
