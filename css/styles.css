@@ -44,6 +44,20 @@ body{
     background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
 }
 
+.btnHome{
+    border-style: solid;
+    border-color: rgb(235, 88, 113);
+    border-width: 2px;
+    transition: .3s ease-in-out;
+}
+
+.btnHome:hover{
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(235, 88, 113);
+    color: white;
+}
+
 /* Estilos de la sección Servicios */
 
 .boxServicios{
@@ -73,43 +87,35 @@ body{
     background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
 }
 
-/* Estilos de la sección Sobre Mi */
-
-.imgAbout{
-    border-style: solid;
-    border-color: whitesmoke;
-    border-width: 2px;
-}
-
 /* Estilos de la sección Contacto */
+
+.sectionContact{
+    color: white;
+    background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155))
+}
 
 .form-control{
     border-style: solid;
-    border-color: rgb(245, 137, 155);
+    border-color: rgb(235, 88, 113);
     border-width: 3px;
 }
 
 .btnFormulario{
-    font-weight: 600;
     border-style: solid;
-    border-color: rgb(245, 137, 155);
+    border-color: rgb(235, 88, 113);
     border-width: 2px;
     background-color: white;
-    transition: .4s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 .btnFormulario:hover{
     border-style: solid;
     border-width: 2px;
-    background-color: rgb(245, 137, 155);
+    background-color: rgb(235, 88, 113);
     color: white;
 }
 
 /* Estilos del Footer del sitio */
-
-.footerBan{
-    background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
-}
 
 .bi-instagram{
     font-size: 25px;
@@ -118,7 +124,7 @@ body{
 }
 
 .bi-instagram:hover{
-    color:whitesmoke;
+    color:rgb(235, 88, 113);
     cursor: pointer;
 }
 
@@ -129,7 +135,7 @@ body{
 }
 
 .bi-envelope:hover{
-    color:whitesmoke;
+    color:#eb5871;
     cursor: pointer;
 }
 
@@ -139,7 +145,7 @@ body{
 }
 
 .bi-whatsapp:hover{
-    color:whitesmoke;
+    color:rgb(235, 88, 113);
     cursor: pointer;
 }
 
@@ -151,5 +157,5 @@ body{
 }
 
 .moyanogdev:hover{
-    color: whitesmoke;
+    color: rgb(235, 88, 113);
 }
