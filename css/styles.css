@@ -44,14 +44,15 @@ body{
     background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
 }
 
-.btnHome{
+.btnGeneral{
+    text-decoration: none;
     border-style: solid;
     border-color: rgb(235, 88, 113);
     border-width: 2px;
     transition: .3s ease-in-out;
 }
 
-.btnHome:hover{
+.btnGeneral:hover{
     border-style: solid;
     border-width: 2px;
     background-color: rgb(235, 88, 113);
@@ -100,24 +101,11 @@ body{
     border-width: 3px;
 }
 
-.btnFormulario{
-    border-style: solid;
-    border-color: rgb(235, 88, 113);
-    border-width: 2px;
-    background-color: white;
-    transition: .3s ease-in-out;
-}
-
-.btnFormulario:hover{
-    border-style: solid;
-    border-width: 2px;
-    background-color: rgb(235, 88, 113);
-    color: white;
-}
 
 /* Estilos del Footer del sitio */
 
 .bi-instagram{
+    color: black;
     font-size: 25px;
     margin-right: 10px;
     transition: .4s ease-in-out;
@@ -128,18 +116,8 @@ body{
     cursor: pointer;
 }
 
-.bi-envelope{
-    font-size: 25px;
-    margin-right: 10px;
-    transition: .4s ease-in-out;
-}
-
-.bi-envelope:hover{
-    color:#eb5871;
-    cursor: pointer;
-}
-
 .bi-whatsapp{
+    color: black;
     font-size: 25px;
     transition: .4s ease-in-out;
 }
