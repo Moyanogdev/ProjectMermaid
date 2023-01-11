@@ -36,3 +36,30 @@ sr.reveal(`.efectoLaminado`, {origin:'right'})
 sr.reveal(`.efectoContacto`)
 sr.reveal(`.efectoForm`, {origin: 'left'})
 sr.reveal(`.efectoMap`, {origin: 'right'})
+
+// EMAIL JS
+
+    const btn = document.getElementById('button');
+    const msjConfirm = document.getElementById("msjConfirm");
+
+    document.getElementById('form')
+    .addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    btn.value = ' Enviando... ';
+
+    const serviceID = 'default_service';
+    const templateID = 'template_09idt1o'; 
+
+    emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+            msjConfirm.innerHTML = "Mensaje enviado correctamente"
+            setTimeout(function(){
+                msjConfirm.innerHTML = ""
+            },5000)
+            form.reset()
+        }, (err) => {
+            btn.value = 'Enviar';
+            alert(JSON.stringify(err));
+            });
+    });

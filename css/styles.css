@@ -101,6 +101,14 @@ body{
     border-width: 3px;
 }
 
+#msjConfirm{
+    color: white;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
 
 /* Estilos del Footer del sitio */
 
