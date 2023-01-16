@@ -1,147 +1,113 @@
-/* Estilos Generales */
+* {
+  margin: 0;
+  padding: 0; }
 
-*{
-    margin: 0;
-    padding: 0;
-}
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: white; }
 
-body{
-    font-family: 'Josefin Sans', sans-serif;
-    background-color: white;
-}
+.navbar, .sectionBanner, .sectionAbout, .sectionTrabajos, .sectionContact {
+  background-image: linear-gradient(to right, #fcb2bf, #f5899b); }
 
-/* Estilos del Header */
+.navbar-nav {
+  float: right; }
 
-.navbar{
-    background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
-}
-
-.navbar-nav{
-    float: right;
-}
-
-.nav-link{
-    color: black;
-    font-size: 18px;
-    font-weight: 400;
-    margin-inline: 7px;
-}
-
-.nav-link:hover{
+.nav-link {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  margin-inline: 7px;
+  transition: .5s ease-in-out; }
+  .nav-link:hover {
     color: whitesmoke;
     text-decoration: wavy underline whitesmoke;
-    text-underline-offset: 5px;
-    transition: .5s ease;
-}
+    text-underline-offset: 5px; }
 
-/* Estilos de la Sección Banner | Home */
+.boxServicios {
+  border-style: solid;
+  background-color: #f5899b;
+  border-color: white;
+  transition: .5s ease-in-out;
+  cursor: pointer; }
+  .boxServicios:hover {
+    background-color: #eb5871; }
 
-.sectionBanner{
-    background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
-}
+.boxServicios2 {
+  cursor: pointer;
+  transition: .5s ease-in-out; }
+  .boxServicios2:hover h4 {
+    color: #eb5871; }
 
-.sectionAbout{
-    background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
-}
+.sectionTrabajos {
+  color: white; }
 
-.btnGeneral{
-    text-decoration: none;
-    border-style: solid;
-    border-color: rgb(235, 88, 113);
-    border-width: 2px;
-    transition: .3s ease-in-out;
-}
+.sectionContact {
+  color: white; }
 
-.btnGeneral:hover{
-    border-style: solid;
-    border-width: 2px;
-    background-color: rgb(235, 88, 113);
-    color: white;
-}
+.form-control {
+  border-style: solid;
+  border-color: #eb5871;
+  border-width: 3px; }
 
-/* Estilos de la sección Servicios */
+#msjConfirm {
+  color: white;
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 600; }
 
-.boxServicios{
-    border-style: solid;
-    background-color: rgb(245, 137, 155);
-    border-color: white;
-    transition: .5s ease-in-out;
-    cursor: pointer;
-}
+.bi-instagram {
+  color: black;
+  font-size: 25px;
+  margin-right: 10px;
+  transition: .4s ease-in-out; }
+  .bi-instagram:hover {
+    color: #eb5871;
+    cursor: pointer; }
 
-.boxServicios2{
-    cursor: pointer;
-}
+.bi-whatsapp {
+  color: black;
+  font-size: 25px;
+  transition: .4s ease-in-out; }
+  .bi-whatsapp:hover {
+    color: #eb5871;
+    cursor: pointer; }
 
-.boxServicios:hover{
-    background-color: rgb(235, 88, 113);
-}
+.moyanogdev {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  transition: .4s ease-in-out; }
+  .moyanogdev:hover {
+    color: #eb5871; }
 
-.boxServicios2:hover h4{
-    color: rgb(235, 88, 113);
-}
-
-/* Estilos de la sección Trabajos */
-
-.sectionTrabajos{
-    color: white;
-    background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155));
-}
-
-/* Estilos de la sección Contacto */
-
-.sectionContact{
-    color: white;
-    background-image: linear-gradient(to right, rgb(252, 178, 191), rgb(245, 137, 155))
-}
-
-.form-control{
-    border-style: solid;
-    border-color: rgb(235, 88, 113);
-    border-width: 3px;
-}
-
-#msjConfirm{
-    color: white;
-    display: block;
-    margin-top: 10px;
-    text-align: center;
-    font-weight: 600;
-}
-
-
-/* Estilos del Footer del sitio */
-
-.bi-instagram{
-    color: black;
-    font-size: 25px;
-    margin-right: 10px;
-    transition: .4s ease-in-out;
-}
-
-.bi-instagram:hover{
-    color:rgb(235, 88, 113);
-    cursor: pointer;
-}
-
-.bi-whatsapp{
-    color: black;
-    font-size: 25px;
-    transition: .4s ease-in-out;
-}
-
-.bi-whatsapp:hover{
-    color:rgb(235, 88, 113);
-    cursor: pointer;
-}
-
-.moyanogdev{
-    color: black;
-    text-decoration: none;
-    font-weight: 600;
-    transition: .4s ease-in-out;
-}
-
-.moyanogdev:hover{
-    color: rgb(235, 88, 113);
-}
+.btnGeneral {
+  background-color: whitesmoke;
+  background-image: none;
+  color: black;
+  cursor: pointer;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  border-radius: 999px;
+  border-color: #1c1b1b;
+  border-style: 2px;
+  font-weight: 600;
+  padding: 12px;
+  position: relative; }
+  .btnGeneral::before {
+    --borderStyle: 3.5px;
+    border: var(--borderStyle) solid whitesmoke;
+    border-radius: 999px;
+    content: "";
+    inset: calc(var(--borderStyle) * -1);
+    opacity: 0;
+    position: absolute;
+    transform: scale(1.3);
+    transition: transform 0.2s, opacity 0.2s; }
+  .btnGeneral:hover::before {
+    opacity: 1;
+    transform: scale(1); }
+  .btnGeneral:hover {
+    background-color: #eb5871;
+    color: whitesmoke; }
