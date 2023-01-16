@@ -1,0 +1,165 @@
+@import "var.scss";
+@import "general.scss";
+
+// Estilos del Header
+
+.navbar{
+    background-image: linear-gradient(to right, $startColor, $finalColor);
+}
+
+.navbar-nav{
+    float: right;
+}
+
+.nav-link{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin-inline: 7px;
+    transition: .5s ease-in-out;
+
+    &:hover{
+        color: whitesmoke;
+        text-decoration: wavy underline whitesmoke;
+        text-underline-offset: 5px;
+    }
+}
+
+// Estilos de la Sección Banner | Home
+
+.sectionBanner{
+    @extend .navbar;
+}
+
+.sectionAbout{
+    @extend .navbar;
+}
+
+// Estilos de la sección Servicios
+
+.boxServicios{
+    border-style: solid;
+    background-color: $finalColor;
+    border-color: white;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $hoverColor;
+    }
+}
+
+.boxServicios2{
+    cursor: pointer;
+    transition: .5s ease-in-out;
+
+    &:hover h4{
+        color: $hoverColor;
+    }
+}
+
+// Estilos de la sección Trabajos
+
+.sectionTrabajos{
+    color: white;
+    @extend .navbar;
+}
+
+// Estilos de la sección Contacto
+
+.sectionContact{
+    color: white;
+    @extend .navbar;
+}
+
+.form-control{
+    border-style: solid;
+    border-color: $hoverColor;
+    border-width: 3px;
+}
+
+#msjConfirm{
+    color: white;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+// Estilos del Footer del sitio
+
+.bi-instagram{
+    color: black;
+    font-size: 25px;
+    margin-right: 10px;
+    transition: .4s ease-in-out;
+
+    &:hover{
+        color: $hoverColor;
+        cursor: pointer;
+    }
+}
+
+.bi-whatsapp{
+    color: black;
+    font-size: 25px;
+    transition: .4s ease-in-out;
+
+    &:hover{
+        color: $hoverColor;
+        cursor: pointer;
+    }
+}
+
+.moyanogdev{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .4s ease-in-out;
+
+    &:hover{
+        color: $hoverColor;
+    }
+}
+
+// Btn Generales
+
+.btnGeneral {
+    background-color: whitesmoke;
+    background-image: none;
+    color: black;
+    cursor: pointer;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    border-radius: 999px;
+    border-color: rgb(28, 27, 27);
+    border-style: 2px;
+    font-weight: 600;
+    padding: 12px;
+    position: relative;
+
+    &::before{
+        --borderStyle: 3.5px;
+        border: var(--borderStyle) solid whitesmoke;
+        border-radius: 999px;
+        content: "";
+        inset: calc(var(--borderStyle) * -1);
+        opacity: 0;
+        position: absolute;
+        transform: scale(1.3);
+        transition: transform 0.2s, opacity 0.2s;
+  }
+
+    &:hover::before{
+        opacity: 1;
+        transform: scale(1);
+    }
+
+
+  &:hover{
+        background-color: $hoverColor;
+        color: whitesmoke;
+  }
+}
