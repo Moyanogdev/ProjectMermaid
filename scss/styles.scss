@@ -12,7 +12,7 @@
 }
 
 .nav-link{
-    color: black;
+    color: $fontColorGeneral;
     font-size: 18px;
     font-weight: 400;
     margin-inline: 7px;
@@ -61,14 +61,14 @@
 // Estilos de la sección Trabajos
 
 .sectionTrabajos{
-    color: white;
+    color: $fontColorGeneral;
     @extend .navbar;
 }
 
 // Estilos de la sección Contacto
 
 .sectionContact{
-    color: white;
+    color: $fontColorGeneral;
     @extend .navbar;
 }
 
@@ -97,7 +97,7 @@
 // Estilos del Footer del sitio
 
 .bi-instagram{
-    color: black;
+    color: $fontColorGeneral;
     font-size: 25px;
     margin-right: 10px;
     transition: .4s ease-in-out;
@@ -109,7 +109,7 @@
 }
 
 .bi-whatsapp{
-    color: black;
+    color: $fontColorGeneral;
     font-size: 25px;
     transition: .4s ease-in-out;
 
@@ -120,7 +120,7 @@
 }
 
 .moyanogdev{
-    color: black;
+    color: $fontColorGeneral;
     text-decoration: none;
     font-weight: 600;
     transition: .4s ease-in-out;
