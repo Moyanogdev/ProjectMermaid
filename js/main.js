@@ -39,27 +39,37 @@ sr.reveal(`.efectoMap`, {origin: 'right'})
 
 // EMAIL JS
 
-    const btn = document.getElementById('button');
-    const msjConfirm = document.getElementById("msjConfirm");
+const btn = document.getElementById('button');
+const msjConfirm = document.getElementById("msjConfirm");
 
-    document.getElementById('form')
-    .addEventListener('submit', function(event) {
-    event.preventDefault();
+document.getElementById('form')
+.addEventListener('submit', function(event) {
+event.preventDefault();
 
-    btn.value = ' Enviando... ';
+btn.value = ' Enviando... ';
 
-    const serviceID = 'default_service';
-    const templateID = 'template_09idt1o'; 
+const serviceID = 'default_service';
+const templateID = 'template_09idt1o'; 
 
-    emailjs.sendForm(serviceID, templateID, this)
-        .then(() => {
-            msjConfirm.innerHTML = "Mensaje enviado correctamente"
-            setTimeout(function(){
-                msjConfirm.innerHTML = ""
-            },5000)
-            form.reset()
-        }, (err) => {
-            btn.value = 'Enviar';
-            alert(JSON.stringify(err));
-            });
-    });
+emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+        msjConfirm.innerHTML = "Mensaje enviado correctamente"
+        setTimeout(function(){
+            msjConfirm.innerHTML = ""
+        },5000)
+        form.reset()
+    }, (err) => {
+        btn.value = 'Enviar';
+        alert(JSON.stringify(err));
+        });
+});
+
+// SCROLL UP
+
+const scrollUp = () => {
+    const scrollUp = document.getElementById('scrollUp')
+    this.scrollY >= 1500 ? scrollUp.classList.add('showScroll')
+                        : scrollUp.classList.remove('showScroll')
+}
+
+window.addEventListener('scroll', scrollUp);

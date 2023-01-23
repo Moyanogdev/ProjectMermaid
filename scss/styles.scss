@@ -130,6 +130,25 @@
     }
 }
 
+.scrollUp{
+    position: fixed;
+    right: 25px;
+    bottom: -50%;
+    color: $fontColorGeneral;
+    transition: .4s ease-in;
+    font-size: 25px;
+    z-index: 5;
+
+    &:hover{
+        transform: translateY(-10px);
+        color: $fontColorGeneral;
+    }
+}
+
+.showScroll{
+    bottom: 25px;
+}
+
 // Btn Generales
 
 .btnGeneral {

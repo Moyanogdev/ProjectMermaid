@@ -86,6 +86,21 @@ body {
   .moyanogdev:hover {
     color: #eb5871; }
 
+.scrollUp {
+  position: fixed;
+  right: 25px;
+  bottom: -50%;
+  color: black;
+  transition: .4s ease-in;
+  font-size: 25px;
+  z-index: 5; }
+  .scrollUp:hover {
+    transform: translateY(-10px);
+    color: black; }
+
+.showScroll {
+  bottom: 25px; }
+
 .btnGeneral {
   background-color: whitesmoke;
   background-image: none;
